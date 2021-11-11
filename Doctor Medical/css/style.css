@@ -1,0 +1,642 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1c92d2), to(#6eabcc));
+  background-image: linear-gradient(to right, #1c92d2, #6eabcc);
+  padding: 12px 0;
+}
+
+.header1 a {
+  text-decoration: none;
+}
+
+.header1 .row i {
+  color: #c7c7c7;
+  font-size: 20px;
+  margin: 0 10px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  text-align: center;
+}
+
+.header1 .row a:hover i {
+  color: #009dff;
+}
+
+.header2 {
+  padding: 1px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00c6ff), to(#0072ff));
+  background-image: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.header2 a {
+  text-decoration: none;
+}
+
+.header2 .row a {
+  font-weight: 600;
+  color: #727272;
+  padding: 0 10px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header2 .row a:hover {
+  color: #000;
+}
+
+.header2 .third a {
+  padding: 12px 26px;
+  font-size: 16px;
+  background-color: #009dff;
+  color: #fff;
+  border-radius: 6px;
+  -webkit-transition: .9s;
+  transition: .9s;
+  border: 1px solid #009dff;
+  background-image: -webkit-gradient(linear, right top, left top, from(#75c7fa), to(#009dff));
+  background-image: linear-gradient(to left, #75c7fa, #009dff);
+}
+
+.header2 .third a:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#009dff), to(#75c7fa));
+  background-image: linear-gradient(to left, #009dff, #75c7fa);
+  color: #fff;
+  border: 1px solid #009dff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.phone-header {
+  display: none;
+}
+
+.slider {
+  background-image: url(https://preview.colorlib.com/theme/docmed/img/banner/xbanner2.png.pagespeed.ic.llwaBCt3Ur.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 13rem 0;
+}
+
+.slider .first-text {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.slider .first-text #frst {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.slider .first-text #scnd {
+  letter-spacing: 3px;
+  font-size: 70px;
+  font-weight: 100;
+}
+
+.slider .first-text p {
+  font-size: 20px;
+  color: #727272;
+  margin-bottom: 4rem;
+}
+
+.slider .first-text a {
+  text-decoration: none;
+  color: #fff;
+  padding: 18px 44px;
+  border: 1px solid #009dff;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#75c7fa), to(#009dff));
+  background-image: linear-gradient(to left, #75c7fa, #009dff);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider .first-text a:hover {
+  background-image: -webkit-gradient(linear, right top, left top, from(#009dff), to(#75c7fa));
+  background-image: linear-gradient(to left, #009dff, #75c7fa);
+  color: #fff;
+  border: 1px solid #009dff;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.hospital {
+  background-color: #83c4ff;
+}
+
+.hospital .box {
+  background-color: #83c4ff;
+  padding: 20px;
+}
+
+.hospital .box:nth-child(2) {
+  background-color: #5db2ff;
+}
+
+.hospital i {
+  font-size: 40px;
+  color: #fff;
+  margin: 25px 0;
+}
+
+.hospital h3 {
+  color: #fff;
+}
+
+.hospital p {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.hospital a {
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.hospital a:hover {
+  color: #009dff;
+  background-color: #fff;
+}
+
+.second {
+  padding: 3rem 0;
+}
+
+.second .box {
+  position: relative;
+}
+
+.second .box .scnd-img {
+  position: absolute;
+  top: 15%;
+  right: 40px;
+}
+
+.second .box-text h2 {
+  font-size: 20px;
+}
+
+.second .box-text hr {
+  background-color: #329cff;
+  height: 3px;
+  width: 4rem;
+  border: 2px solid #329cff;
+  margin: 3px 0 35px 0;
+}
+
+.second .box-text p {
+  color: #727272;
+}
+
+.second .box-text .icons {
+  margin-bottom: 50px;
+}
+
+.second .box-text .icons .icon {
+  font-weight: 600;
+  color: #727272;
+}
+
+.second .box-text .icons .icon span {
+  border-radius: 100%;
+  border: 1px solid #009dff;
+  color: #83c4ff;
+  margin-right: 10px;
+  padding: 1px 4px;
+}
+
+.second .box-text a {
+  color: #009dff;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #009dff;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.second .box-text a:hover {
+  background-color: #009dff;
+  color: #fff;
+}
+
+.gallery {
+  margin-top: 2rem;
+  background-color: #f5fbff;
+  padding: 3rem 0;
+}
+
+.gallery .gallery-text h3 {
+  font-weight: bold;
+}
+
+.gallery .gallery-text hr {
+  margin: 15px auto;
+  width: 5rem;
+  height: 5px;
+  background-color: #009dff;
+}
+
+.gallery .gallery-text p {
+  color: #727272;
+}
+
+.gallery .gallery-pic {
+  background-color: #fff;
+}
+
+.gallery .gallery-pic .box:hover .top img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.gallery .gallery-pic .box .top {
+  overflow: hidden;
+}
+
+.gallery .gallery-pic .box .top img {
+  width: 100%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.gallery .gallery-pic .box .bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gallery .gallery-pic .box .bottom h3 {
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-weight: 400;
+}
+
+.gallery .gallery-pic .box .bottom h3:hover {
+  color: #009dff;
+}
+
+.gallery .gallery-pic .box .bottom p {
+  color: #727272;
+}
+
+.gallery .gallery-pic .box .bottom a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.gallery .gallery-pic .box .bottom a:hover {
+  text-decoration: underline;
+}
+
+.cover {
+  background-image: url(https://preview.colorlib.com/theme/docmed/img/testmonial/x2.png.pagespeed.ic.pCV3MMqCa7.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+  margin-top: 2rem;
+  position: relative;
+  z-index: -1;
+}
+
+.cover .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .3;
+  z-index: -11;
+}
+
+.cover .box {
+  color: #fff;
+  z-index: 11;
+}
+
+.cover .box .marks {
+  font-size: 6rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.cover .box p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cover .box hr {
+  height: 3px;
+  width: 5rem;
+  margin: 2rem auto 5px;
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 3px;
+}
+
+.space {
+  margin: 3rem 0;
+}
+
+.doctors {
+  margin-top: 3rem;
+  background-color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.doctors .exp {
+  margin: 2rem 0;
+}
+
+.doctors .box:hover .top img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.doctors .box .top {
+  overflow: hidden;
+}
+
+.doctors .box .top img {
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 100%;
+}
+
+.doctors .box .bottom {
+  text-align: center;
+  padding: 1rem;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: #f5fbff;
+}
+
+.doctors .box .bottom:hover {
+  background-color: #009dff;
+  color: #fff;
+}
+
+.doctors .box .bottom h6 {
+  color: #727272;
+}
+
+.emergency {
+  margin-top: 2rem;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.emergency .first {
+  margin: 0 !important;
+  background-color: #00c6ff;
+  background-image: url(https://preview.colorlib.com/theme/docmed/img/banner/xemergency-1.png.pagespeed.ic.0_t4JT8v1z.webp);
+  background-size: cover;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.emergency .first:hover::after {
+  width: 100%;
+}
+
+.emergency .first::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #8ce6ff;
+  -webkit-transition: .7s;
+  transition: .7s;
+  opacity: .5;
+  z-index: -1;
+}
+
+.emergency .first .first-text {
+  z-index: 999;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.emergency .first .first-text .left h3, .emergency .first .first-text .left h4 {
+  color: #009dff;
+}
+
+.emergency .first .first-text .right {
+  margin-top: 2rem;
+}
+
+.emergency .first .first-text .right a {
+  text-decoration: none;
+  color: #009dff;
+  padding: 1rem;
+  border: 1px solid #009dff;
+  border-radius: 20px;
+  background-color: transparent;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.emergency .first .first-text .right a:hover {
+  background-color: #00c6ff;
+  color: #fff;
+}
+
+.emergency .second {
+  margin: 0 !important;
+  background-color: #00c6ff;
+  background-image: url(https://preview.colorlib.com/theme/docmed/img/banner/xemergency-2.png.pagespeed.ic.I_pRp_gcQq.webp);
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.emergency .second:hover::after {
+  width: 100%;
+}
+
+.emergency .second::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #8ce6ff;
+  -webkit-transition: .7s;
+  transition: .7s;
+  opacity: .5;
+  z-index: -1;
+}
+
+.emergency .second .second-text {
+  text-align: left;
+  margin: 5px 0 0 10px;
+}
+
+.emergency .second .second-text .left h3, .emergency .second .second-text .left h4 {
+  color: #fff;
+}
+
+.emergency .second .second-text .right {
+  margin-top: 30px;
+}
+
+.emergency .second .second-text .right a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid #009dff;
+  border-radius: 20px;
+  background-color: transparent;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.emergency .second .second-text .right a:hover {
+  background-color: #fff;
+  color: #00c6ff;
+}
+
+.footer1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1f1f1f;
+  padding: 3rem 0;
+}
+
+.footer1 .first p {
+  color: #727272;
+  margin: 15px 0;
+}
+
+.footer1 .first a {
+  font-size: 30px;
+  color: #727272;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin-right: 20px;
+}
+
+.footer1 .first a:hover {
+  color: #75c7fa;
+}
+
+.footer1 .second {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.footer1 .second .box h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer1 .second .box ul {
+  list-style: none;
+}
+
+.footer1 .second .box ul li {
+  color: #727272;
+  font-size: 20px;
+}
+
+.footer1 .second .box ul li a {
+  text-decoration: none;
+  color: #727272;
+}
+
+.footer2 {
+  padding: 1rem 0;
+  background-color: #000;
+  text-align: center;
+}
+
+.footer2 span {
+  color: #727272;
+}
+
+.footer2 span a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .header1 {
+    text-align: center !important;
+  }
+  .header1 a {
+    font-size: 14px;
+  }
+  .header1 .scnd {
+    text-align: center !important;
+  }
+  .header2 {
+    display: none;
+  }
+  .phone-header {
+    background-color: #fff;
+    display: block;
+  }
+  .slider {
+    padding: 3rem 0;
+  }
+  .slider .first-text #frst {
+    font-size: 20px;
+  }
+  .slider .first-text #scnd {
+    font-size: 30px;
+  }
+  .slider .first-text p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .slider .first-text a {
+    padding: 7px 12px;
+  }
+  .scnd-img {
+    display: none;
+  }
+  .cover {
+    padding: 5rem;
+  }
+  .emergency .first, .emergency .second {
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
